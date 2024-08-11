@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Favicon.ico">
+    <title>Planning for Holidays</title>
+</head>
+<body>
+    <div>
+        <center><img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/08/1400x600-6.jpg" width="500px" alt="Road Trip Image"></center><br>
+        <center><h1><b>Travel Information Form</b></h1>
+        <br>
+        <span>Please provide us the given details and we will manage your Trip</span></center>
+        <br><hr>
+        <form action="forms.html">
+            <b>Title</b>
+            <select name="title" id="titleid">
+            <option value="Mr">Mr</option>
+            <option value="Mrs"> Mrs</option>
+            <option value="Miss"> Miss</option>
+            </select><br><br>
+            <b>Traveller Name</b>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <br><br>
+            <b>Date of Birth</b>
+            <input type="date" name="birthDate" id="birthDateid">
+            <br><br>
+            <b>Organizer Name</b>
+            <input type="text">
+            <br><br>
+            <b>Email</b>
+            <input type="email" name="contact" id="contactid" placeholder="xyz@gmail.com"><br><br>
+            <b>Contact Number</b>
+            <input type="text"  placeholder="Enter your Mobile number">
+            <br><br><hr>
+            <h2><b>Travel Deatils</b></h2>
+            <b>Departure Country</b>
+            <select name="trip" id="trip">
+                <option value="new0"></option>
+                <option value="new">New Zealand</option>
+                <option value="new1">Austraila</option>
+                <option value="new2">Germany</option>
+                <option value="new3">Belgium</option>
+                <option value="new4">Brazil</option>
+                <option value="new5">Sweden</option>
+                <option value="new6">Other...</option>
+            </select>
+            <br><br>
+            <b>Destination Country</b>
+            <select name="trip" id="trip">
+                <option value="new0"></option>
+                <option value="new">New Zealand</option>
+                <option value="new1">Austraila</option>
+                <option value="new2">Germany</option>
+                <option value="new3">Belgium</option>
+                <option value="new4">Brazil</option>
+                <option value="new5">Sweden</option>
+                <option value="new6">Hungary</option>
+                <option value="new7">Other...</option>
+            </select>
+            <br><br>
+            <b>Travelling Date</b>
+            <input type="date" name="date" id="dadteid">
+            <br><br>
+            <b>Return Date</b>
+            <input type="date" name="date" id="dateid1">
+            <br><br>
+            <b>Class of Service</b>
+            <br>
+            <label for="class1">
+                <input type="radio" name="service" id="serviceida">Business Class
+            </label>
+            <label for="class2">
+                <input type="radio" name="service" id="serviceidb">Economy Class
+            </label>
+            <label for="class3">
+                <input type="radio" name="service" id="serviceidc">First Class
+            </label>
+            <br><br>
+            <b>Please check the extra services that you need</b><br>
+            <input type="checkbox" name="extras" id="extrasid">Hotel Accomodation <br>
+            <input type="checkbox" name="extras" id="extrasid">Rental Car
+            <br>
+            <input type="checkbox" name="extras" id="extrasid">Food Card
+            <br>
+            <input type="checkbox" name="extras" id="extrasid">Prostitute(RANDI)
+            <br><br><hr>
+            <h2><b>Additional Details</b></h2>
+            <br>
+            <b>Preferred Hotel any</b>
+            <input type="text">
+            <br><br>
+            <b>Preferred Airlines</b>
+            <input type="text">
+            <br><br>
+            <b>Any Other Details :-</b>
+            <br>
+            <textarea name="others" id="others" cols="30" rows="10"></textarea>
+            <br><br>
+            <input type="submit" value="sumbit">
+        </form>
+    </div>
+</body>
+</html>

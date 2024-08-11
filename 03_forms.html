@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Creation</title>
+</head>
+
+<body>
+    <div>
+        <h2><u>School Pinic tour forms</u></h2>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name"><br>
+            <label for="sectionida">
+                <input type="radio" value="section A" name="section" id="sectionida"> Section A
+            </label>
+            <label for="sectionidb">
+                <input type="radio" value="section b" name="section" id="sectionidb"> Section B
+            </label>
+            <br>
+            <hr>
+            <h5>Contact Deatils</h5>
+            <input type="email" name="verify" id="verifyid" placeholder="Email or Phone number">
+            <br>
+            <hr>
+            <label for="careerida"><b>Which place do you want to go for Pinic</b><br>
+                Shimla<input type="checkbox" value="career  a" name="choice" id="choiceida"></label>
+            <br>
+            <label for="careeridb">
+                ladaak<input type="checkbox" value="career  b" name="choice" id="choiceidb"></label>
+            <label for="careeridb">
+                <br>
+                kanyakumari<input type="checkbox" value="career  c" name="choice" id="choiceidc"></label>
+            <br>
+
+            <textarea name="choice" id="choiceid" cols="30" rows="10"
+                placeholder="Explain why you want to go at this place for Pinic"></textarea>
+            <br>
+            <select name="Choose your Group" id="groupid">Choose your Group
+                <option value="select">Select your Group</option>
+                <option value="grp1">grp1</option>
+                <option value="grp2">grp2</option>
+            </select>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
